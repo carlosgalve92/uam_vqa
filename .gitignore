@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# others
+data/mscoco/images/prueba/*.jpg
+data/mscoco/images/test2015/*.jpg
+data/mscoco/images/train2014/*.jpg
+data/mscoco/images/val2014/*.jpg
+data/mscoco_img_feat/*.tsv
+data/vqa/*.json
+output/
+repositories/
+models/bottom_up_features/*.pth
+models/lxmert/pretrained/*.pth
+.vscode
