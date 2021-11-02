@@ -129,14 +129,6 @@ dmypy.json
 .pyre/
 
 # others
-data/mscoco/annotations/*.json
-data/mscoco/images/prueba/*.jpg
-data/mscoco/images/test2015/*.jpg
-data/mscoco/images/train2014/*.jpg
-data/mscoco/images/val2014/*.jpg
-data/mscoco_img_feat/*.tsv
-data/lxmert/*.json
-data/vqa/*.json
 output/
 repositories/
 models/bottom_up_features/*.pth
