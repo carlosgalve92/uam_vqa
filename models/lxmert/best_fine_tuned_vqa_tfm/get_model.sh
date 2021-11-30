@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1PFF36x0nCzrvkPBG7L_cXEzxMqE_lRoT' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1PFF36x0nCzrvkPBG7L_cXEzxMqE_lRoT" -O ./models/lxmert/best_fine_tuned_vqa_tfm/epochs_4_lr_5e5_batchsize_64.pth && rm -rf /tmp/cookies.txt
