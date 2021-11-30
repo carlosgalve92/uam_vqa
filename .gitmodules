@@ -1,0 +1,9 @@
+[submodule "repositories/bottom-up-attention.pytorch"]
+	path = repositories/bottom-up-attention.pytorch
+	url = https://github.com/carlosgalve92/bottom-up-attention.pytorch.git
+[submodule "repositories/apex"]
+	path = repositories/apex
+	url = https://github.com/carlosgalve92/apex.git
+[submodule "repositories/lxmert"]
+	path = repositories/lxmert
+	url = https://github.com/carlosgalve92/lxmert.git

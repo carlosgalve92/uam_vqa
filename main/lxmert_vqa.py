@@ -204,14 +204,14 @@ TEST = 'test'
 L_LAYERS = 9
 X_LAYERS = 5
 R_LAYERS = 5
-LOAD_FINETUNE = "output/lxmert/vqa/all_data/own_data_epochs_4_lr_5e5_batchsize_256/BEST"
-BATCH_SIZE = 256
+LOAD_FINETUNE = "models/lxmert/best_fine_tuned_vqa_tfm/epochs_4_lr_5e5_batchsize_64"
+BATCH_SIZE = 64
 OPTIM = 'bert'
 LR = 5e-5
 EPOCHS = 4
 TQDM = True
 TINY = False
-OUTPUT = 'output/lxmert/vqa/all_data/own_data_epochs_4_lr_5e5_batchsize_256_test'
+OUTPUT = 'output/lxmert/edBB/test'
 
 if __name__ == "__main__":
 
@@ -267,5 +267,3 @@ if __name__ == "__main__":
         else:
             print("DO NOT USE VALIDATION")
         vqa.train(vqa.train_tuple, vqa.valid_tuple)
-
-

@@ -218,10 +218,10 @@ NUM_CPUS = "0"
 GPUS = "'0'"
 EXTRACT_MODE = "roi_feats"
 # MIN_MAX_BOXES = "'36,36'"
-CONFIG_FILE = "/home/carlosgalve92/Escritorio/trabajos/final_project_of_master/configs/bottom_up_features/extract-bua-caffe-r101-fix36.yaml"
-PREFIX_SPLIT = "test2015" # train2014, val2014, test2015, prueba
-IMAGE_DIR = f"/home/carlosgalve92/Escritorio/trabajos/final_project_of_master/data/mscoco/images/{PREFIX_SPLIT}"
-OUT_DIR = "/home/carlosgalve92/Escritorio/trabajos/final_project_of_master/output"
+CONFIG_FILE = "/home/carlosgalve92/Escritorio/trabajos/uam_vqa/configs/bottom_up_features/extract-bua-caffe-r101-fix36.yaml"
+PREFIX_SPLIT = "raw" # train2014, val2014, test2015, prueba
+IMAGE_DIR = f"/home/carlosgalve92/Escritorio/trabajos/uam_vqa/data/edBB/images/{PREFIX_SPLIT}"
+OUT_DIR = "/home/carlosgalve92/Escritorio/trabajos/uam_vqa/data/edBB/images/features"
 FIELDNAMES = ["img_id", "img_h", "img_w", "objects_id", "objects_conf", "attrs_id", "attrs_conf", "num_boxes", "boxes", "features"]
 
 if __name__ == "__main__":
