@@ -9,14 +9,17 @@
 
 ### Steps of installation
 ```
+apt-get update
+apt-get install ffmpeg libsm6 libxext6  -y
+
 # Create new virtual enviroment:
-python3 -m venv ./venv
+#python3 -m venv ./venv
 
 # Activate virtual enviroment:
-source ./venv/bin/activate
+#source ./venv/bin/activate
 
 # Install Pre-Built Detectron2 (Linux only):
-pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+#pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 
 # Install wheel:
 pip install wheel
