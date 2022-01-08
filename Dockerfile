@@ -13,7 +13,7 @@ RUN cd repositories/bottom-up-attention.pytorch && python setup.py build develop
 RUN pip install pycocotools
 RUN pip install opencv-python
 RUN pip install jupyter
-RUN python /proyectos/uam_vqa/repositories/apex/setup.py install
+RUN cd repositories/apex && python setup.py install && cd /proyectos/uam_vqa
 RUN pip install ray
 RUN pip install boto3
 RUN pip install requests
