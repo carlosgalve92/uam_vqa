@@ -16,6 +16,6 @@
 # create docker image:
 docker build -t uam_vqa:feature_example_of_one_case .
 
-# create docker container (change "C:\proyectos\intercambio" for path where you do you want to have a replic of "/proyectos/intercambio"):
+# create docker container (change "C:\proyectos\intercambio" for path where you want to have a replic of "/proyectos/intercambio"):
 docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -it --name feature_example_of_one_case -v C:\proyectos\intercambio:/proyectos/intercambio uam_vqa:feature_example_of_one_case
 ```
