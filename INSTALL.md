@@ -2,7 +2,7 @@
 
 ### Prerequisites (maybe work with others hardware and Operating System)
 - Docker 2.3.0.2 or a later release.
-- NVIDIA CUDA-enabled driver on Ubuntu 20.04 LTS 
+- NVIDIA CUDA-enabled driver (and Nvidia DOcker) on Ubuntu 20.04 LTS 
 - NVIDIA CUDA-enabled driver for WSL (https://docs.microsoft.com/es-es/windows/ai/directml/gpu-cuda-in-wsl) on OS of Windows 11 or Windoes 10 Home 21H2
 - GPU: GeForce RTX 3090
 - RAM: 64 Gb
