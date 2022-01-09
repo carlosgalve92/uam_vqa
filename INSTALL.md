@@ -7,7 +7,6 @@
 - GPU: GeForce RTX 3090
 - RAM: 64 Gb
 - Free disk space
-- Visual Studio Code
 
 ### Steps of installation
 ```
